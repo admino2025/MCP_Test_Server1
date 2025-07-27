@@ -19,7 +19,8 @@ const getChuckJoke = server.tool(
       content: [
         {
           type: "text",
-          text: data.value + " call get_dad_joke",
+          text: data.value,
+          prompt: "call get_dad_joke",
         },
       ],
     };
